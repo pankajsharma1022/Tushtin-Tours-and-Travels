@@ -1,0 +1,567 @@
+:root{
+    --main-bg-color:#333 ;
+    --main-bg-color1:#f75751;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px ){
+
+    header{
+        
+        width: auto;
+    }
+
+
+    header  nav{
+        height: auto;
+        width: 0vw;
+
+    }
+
+    
+header nav ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 145px;
+    padding-top: 15px;
+    
+
+    }
+
+    header .name h1{
+   
+        padding-top: 0px;
+        padding-left: 62px;
+        color: white;
+        font-size: larger;
+    }
+
+
+
+    /* css for userdataform page  */
+
+    header1{
+        
+        width: auto;
+    }
+
+
+    header1  nav{
+        height: auto;
+        width: 0vw;
+
+    }
+
+    
+  header1 nav ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 145px;
+    padding-top: 15px;
+    
+
+    }
+
+    header1 .name h1{
+   
+        padding-top: 0px;
+        padding-left: 62px;
+        color: white;
+        font-size: larger;
+    }
+    
+
+
+    /* end  */
+
+   
+
+    .carditem2{
+        
+        width: 77%;
+        height: auto;
+        text-align: center;
+    }
+
+    .card{
+        display: block;
+        text-align: center;
+    }
+
+    main .card .carditem2 a img{
+        height: 30vh;
+        width: 75vw;
+    }
+
+    main .card .carditem2 img {
+        height: 30vh;
+        width: 75vw;
+    }
+
+    main h2{
+        font-size: medium;
+    }
+
+    main h1{
+        font-size: medium;
+    }
+
+    main .language h1{
+        font-size: smaller;
+    }
+
+ 
+   .map img{
+       height: 60vw;
+       width: 85vw;
+    }
+
+
+    
+/*tushtin cart*/
+
+.tushtincart h2{
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vw;
+    font-size: small;
+}
+
+.itemtext h1{
+    font-size: x-large;
+}
+
+.carttext h1{
+    padding-left: 2vw;
+    font-size: x-large;
+    padding-bottom: 3vh;
+
+}
+
+   
+
+   
+}
+
+/* pc page css */
+
+
+header{
+    background-color: var(--main-bg-color);
+    height: 8vh;
+    padding: 2vh;
+    display: flex;
+
+}
+
+header .logo a img{
+    height: 30px;
+    width: 30px;
+}
+
+header nav ul{
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+header nav ul a{
+    color: white;
+  text-decoration: none; 
+    margin: 3vw;
+    
+}
+
+header .name{
+   
+    
+    padding-left: 155px;
+    color: white;
+    height: 0vh;
+    width: 2vw;
+    font-size: smaller;
+}
+
+
+  /* for userdataformpage */
+
+
+  header1{
+    background-color: var(--main-bg-color);
+    height: 12vh;
+    padding: 2vh;
+    display: flex;
+
+}
+
+header1 .logo a img{
+    height: 30px;
+    width: 30px;
+}
+
+header1 nav ul{
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+header1 nav ul a{
+    color: white;
+  text-decoration: none; 
+    margin: 3vw;
+    
+}
+
+header1 .name{
+   
+    
+    padding-left: 155px;
+    color: white;
+    height: 0vh;
+    width: 2vw;
+    font-size: smaller;
+}
+
+
+/* :end */
+
+
+
+main .logoimgpage img{
+    height: 70vh;
+    width: 90vw;
+    padding-left: 5vw;
+}
+
+
+main .logoname h1{
+    color: #dc4d5a;
+    justify-content: center;
+}
+
+main h1 a{
+    color: var(--main-bg-color1);
+    text-decoration: none;
+}
+
+main{
+    min-height: calc(100vh - 50vh - 5vh) ;
+}
+
+.mainimg1{
+    display: flex;
+    float: left;
+    padding-right: 10px;
+}
+
+.mainimg2{
+    display: flex;
+}
+
+.mainimg1 img{
+    height: 50vh; 
+    width: 49vw;
+    padding-top: 10px;
+    float: inline-start;
+    padding-bottom: 8vh;
+    
+
+}
+
+.mainimg2 img{
+    height: 50vh; 
+    width: 49vw;
+    padding-top: 10px;
+    float: right;
+    padding-bottom: 8vh;
+}
+
+main h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2vh;
+     color: var(--main-bg-color1)
+}
+
+
+main h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2vh;
+    color: var(--main-bg-color1);
+    padding-top: 2%;
+    
+}
+
+h2 a{
+    color: deepskyblue;
+}
+
+.categorytext h2{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4vh;
+
+}
+
+.statetext h3{
+    color: #f75751;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+    padding-top: 4vh;
+    margin: 0px 0 0 0;
+}
+
+.card{
+   
+    padding-left: 1vw;
+    padding-right: 1vw;
+    
+    
+}
+
+
+
+main .card .carditem img{
+    height: 35vh;
+    width: 15vw;
+}
+
+
+.carditem{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 5px 5px;
+    
+}
+
+main  .carditem2 img{
+    height: 35vh;
+    width: 15vw;
+}
+
+.carditem2{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 25px 20px;
+    background-color: #e1eaed;
+    
+}
+
+ol{
+    padding-left: 35px;
+    color: deepskyblue;
+}
+
+.card .carditem .lines a{
+    color: black;
+    text-decoration: none; 
+}
+
+
+.card .carditem2 .lines a{
+    color: black;
+    text-decoration: none; 
+}
+
+
+
+.card .lines{
+    display: inline;
+
+}
+
+.textcenter{
+    text-align: center;
+}
+
+/* main .languagetext h1{
+    padding-left: 2vw;
+
+} */
+
+
+
+.video720{
+    padding-left: 3vw;
+}
+
+
+footer{
+    background-color: var(--main-bg-color) ;
+    height: 17vh;
+}
+
+.footer ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 2vw;
+
+}
+
+.logoimg img{
+    height: 30vh;
+    width: 60%;
+    
+}
+
+.logoimg{
+    width: 100vw;
+    text-align: center;
+}
+
+/* .language {
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vw;
+    padding-bottom: 0vh;
+    color: var(--main-bg-color1);
+} */
+
+.video{
+    padding-left: 2vw;
+}
+ 
+
+ video{
+    width: 95%;
+}
+
+
+video source{
+    
+        padding-left: 7vw;
+        width: 83vw;
+        height: 50vw;
+    
+}
+
+iframe {
+    padding-left: 7vw;
+    width: 83vw;
+    height: 50vw;
+}
+
+
+/*tushtin cart*/
+
+.carttext h1{
+    padding-left: 5vw;
+    font-size:revert;
+    padding-bottom: 5vh;
+    
+
+}
+
+.carttext {
+    background-color: #f8e6b8;
+    text-align: center;
+    justify-content: center;
+}
+
+.map img{
+    padding-left: 7vw;
+    width: 83vw;
+    height: 50vw;
+ }
+
+
+.abouttext{
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+p{
+    margin: 5vw;
+    color: deepskyblue;
+}
+
+footer ul{
+    padding-top: 1vw;
+}
+
+/* small header css */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 1vh;
+    margin-top: 2px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 22px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid white;
+    color: #f75757;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid white;
+    color: #f75757;
+  }
+
+
+  tr{
+    width: 2vw;
+    height: 7vh;
+  }
+
+  td{
+    width: 50%;
+    font-weight: 500;
+    font-size: large;
+    font-family: fantasy;
+    color: deepskyblue;
+  }
+
+  td a{
+    color: #f75751;
+  }
+
+  .map{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .tushtincart{
+    
+    padding-left: 10px;
+  }
+
+  h4{
+    color: #f75751;
+  }
+
+  .body2{
+    padding: 5px 2vw;
+
+  }
+
+  .name a{
+    color: white;
+  }
+
+  

@@ -1,0 +1,101 @@
+:root{
+    --main-bg-color:#333 ;
+    --main-bg-color1:#f75751;
+}
+
+
+@media only screen and (max-width: 600px ){
+
+    header1{
+        
+        width: auto;
+    }
+
+
+    header1  nav{
+        height: auto;
+        width: 0vw;
+
+    }
+
+    
+
+    
+header1 nav ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 145px;
+    padding-top: 15px;
+    
+
+    }
+
+    header1 .name h1{
+   
+        padding-top: 0px;
+        padding-left: 62px;
+        color: white;
+        font-size: larger;
+    }
+
+}
+
+   
+
+/* pc page css */
+
+
+header1{
+    background-color: var(--main-bg-color);
+    height: 10vh;
+    padding: 2vh;
+    display: flex;
+}
+
+header1 .logo a img{
+    height: 30px;
+    width: 30px;
+}
+
+header1 nav ul{
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+header1 nav ul a{
+    color: white;
+  text-decoration: none; 
+    margin: 3vw;
+    
+}
+
+header1 .name{
+   
+    
+    padding-left: 155px;
+    color: white;
+    height: 0vh;
+    width: 2vw;
+    font-size: smaller;
+}
+
+header1 .name  h1{
+
+    color: white;
+    font-size: 23px;
+}
+
+header1 .name a{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+
+

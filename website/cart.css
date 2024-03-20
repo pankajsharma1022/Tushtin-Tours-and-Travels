@@ -1,0 +1,340 @@
+:root{
+    --main-bg-color:#11cac6 ;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px ){
+
+    header{
+        
+        width: auto;
+    }
+
+
+    header  nav{
+        height: auto;
+        width: 0vw;
+
+    }
+
+    
+header nav ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 145px;
+    padding-top: 15px;
+    
+
+    }
+
+    header .name h1{
+   padding-top: 0px;
+   padding-left: 62px;
+   color: #a94f4f;
+   font-size: larger;
+   }
+    
+
+   
+
+    .carditem2{
+        
+        width: 33%;
+        height: auto;
+        text-align: center;
+    }
+
+    .card{
+        display: block;
+        
+    }
+
+    main .card .carditem2 a img{
+        height: 30vh;
+        width: 75vw;
+    }
+
+    main .card .carditem2 img {
+        height: 30vh;
+        width: 75vw;
+    }
+
+    main h2{
+        font-size: medium;
+    }
+
+    main h1{
+        font-size: medium;
+    }
+
+    main .language h1{
+        font-size: smaller;
+    }
+
+ 
+   .map img{
+       height: 60vw;
+       width: 85vw;
+    }
+
+
+    
+/*tushtin cart*/
+
+.tushtincart h2{
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vw;
+    font-size: small;
+}
+
+.itemtext h1{
+    font-size: x-large;
+}
+
+.carttext h1{
+    padding-left: 2vw;
+    font-size: x-large;
+    padding-bottom: 3vh;
+
+}
+
+
+
+}
+
+
+header{
+    background-color: var(--main-bg-color);
+    height: 9vh;
+    padding: 2vh;
+    display: flex;
+
+}
+
+header .logo{
+    height: 30px;
+}
+
+header nav ul{
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+header nav ul a{
+    color: white;
+  text-decoration: none; 
+    margin: 3vw;
+    
+}
+
+header .logo a img{
+    height: 30px;
+    width: 30px;
+}
+
+header .name{
+   padding-left: 155px;
+   color: #c58989;
+   height: 7vh;
+   width: 2vw;
+   font-size: smaller;
+}
+
+
+main .logoimgpage img{
+    height: 70vh;
+    width: 90vw;
+    padding-left: 5vw;
+}
+
+
+main .logoname h1{
+    color: #dc4d5a;
+    justify-content: center;
+}
+
+main h1 a{
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
+
+main{
+    min-height: calc(100vh - 20vh - 9vh) ;
+}
+
+.mainimg1{
+    display: flex;
+    float: left;
+    padding-right: 10px;
+}
+
+.mainimg2{
+    display: flex;
+}
+
+.mainimg1 img{
+    height: 50vh; 
+    width: 49vw;
+    padding-top: 10px;
+    float: inline-start;
+    padding-bottom: 8vh;
+    
+
+}
+
+.mainimg2 img{
+    height: 50vh; 
+    width: 49vw;
+    padding-top: 10px;
+    float: right;
+    padding-bottom: 8vh;
+}
+
+main h1{
+    justify-content: center;
+    align-items: center;
+    padding-left: 25vw;
+    padding-bottom: 2vh;
+    color: var(--main-bg-color);
+}
+
+
+main h2{
+    justify-content: center;
+    align-items: center;
+    padding-left: 25vw;
+    padding-bottom: 2vh;
+    color: var(--main-bg-color);
+    
+}
+
+.categorytext h2{
+    justify-content: center;
+    align-items: center;
+    padding-left: 45vw;
+    padding-bottom: 4vh;
+
+}
+
+.card{
+   
+    padding-left: 0vw;
+    padding-right: 3vw;
+    background-color: lavender;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+
+
+main .card .carditem img{
+    height: 35vh;
+    width: 15vw;
+}
+
+
+.carditem{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 5px 5px;
+    
+}
+
+main  .carditem2 img{
+    height: 35vh;
+    width: 15vw;
+}
+
+.carditem2{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 25px 20px;
+    background-color: #e1eaed;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+.card .carditem .lines a{
+    color: black;
+    text-decoration: none; 
+}
+
+
+.card .carditem2 .lines a{
+    color: black;
+    text-decoration: none; 
+}
+
+
+
+.card .lines{
+    display: inline;
+
+}
+
+.textcenter{
+    text-align: center;
+}
+
+
+.carttext h1{
+    padding-left: 5vw;
+    font-size:revert;
+    padding-bottom: 5vh;
+    
+
+}
+
+.carttext {
+    background-color: #f8e6b8;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+
+
+footer{
+    background-color: var(--main-bg-color) ;
+    height: 23vh;
+}
+
+.footer ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 2vw;
+
+}
+
+.subtext  h3{
+    align-items: center;
+    justify-content: center;
+    padding-left: 38vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.subtext {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
